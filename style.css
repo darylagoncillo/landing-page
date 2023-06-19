@@ -126,3 +126,8 @@ nav img {
   margin-right: 200px;
   padding-right: 100px;
 }
+
+.content h2 {
+    text-align: center;
+    padding: 32px;
+}
