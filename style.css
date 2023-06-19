@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: #fff;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.btn {
+  margin-left: 100px;
+  margin-top: 22px;
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border: 3px solid rgb(252, 70, 100);
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@font-face {
+  font-family: "bloodcrow";
+  src: url(./fonts/blood-crow/bloodcrow.ttf);
+}
+
+#logo {
+  size: 50%;
+}
+
+.header {
+  min-height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  min-height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: bloodcrow;
+}
+
+nav img {
+  width: 150px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.text {
+  color: white;
+  padding-left: 40px;
+}
+
+.statement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  font-weight: extra-bold;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+
+.subtext {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  position: relative;
+}
+
+#jumping {
+  max-width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.header_fill {
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+  padding-right: 100px;
+}
