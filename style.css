@@ -39,10 +39,11 @@
 }
 
 .header {
-  min-height: 40vh;
+  min-height: 35vh;
+  max-height: 40vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/images/banner.png);
+    url(./images/banner.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -203,6 +204,8 @@ footer .text {
 
 .footer__content {
   margin-left: 200px;
+  align-items: center;
+  text-align: ;
 }
 
 #btn_footer {
