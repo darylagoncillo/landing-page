@@ -9,8 +9,6 @@ Langing page uses vanila HTML/CSS
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * Mac OS Ventura 10.4
 
 ### Installing
